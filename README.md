@@ -8,6 +8,9 @@
 # Description 
 A script that backs up the specified files to a remote backup server
 
+#### /opt/backup Directory Contents***
+![](images/Screen Shot 2022-11-20 at 9.31.25 PM.png)
+
 # Getting Started
 In order to begin with the Setup
 1. Create a Directory /opt/backup using the command:        mkdir /opt/backup

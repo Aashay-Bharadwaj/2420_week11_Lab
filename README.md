@@ -36,7 +36,7 @@ In order to begin with the Setup
 # Setting up the Service and Timer
 In order to regularly backup the data we can set a service a a timer that triggers it. 
 
-### Set up service to backup data every Saturday at 1 am
+### Set up service to backup data every Friday at 1 am
 To get started:
 1. Navigate to /etc/systemd/system directory using:         cd /etc/systemd/system
 2. Save ***backup.service and backup.timer*** in this directory
@@ -50,5 +50,5 @@ To get started:
     ![](images/backup_timer.png)
 
 
-#### Thats it now your system will auto backup the specified files every Saturday at 1 am
+#### Thats it now your system will auto backup the specified files every Friday at 1 am
                                                                        

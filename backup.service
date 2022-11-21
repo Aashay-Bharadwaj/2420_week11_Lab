@@ -1,5 +1,5 @@
 [Unit]
-Description= use rsync to back up specified local files to a remote back up server every Saturday at 1 am 
+Description= use rsync to back up specified local files to a remote back up server every Friday at 1 am 
 
 [Service]
 Type=oneshot

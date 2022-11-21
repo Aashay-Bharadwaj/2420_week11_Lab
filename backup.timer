@@ -1,8 +1,8 @@
 [Unit]
-Description=Timer to start the backup service which gets the back up every Saturday at 1 am
+Description=Timer to start the backup service which gets the back up every Friday at 1 am
 
 [Timer]
-OnCalendar=Sat *-*-* 01:00:00
+OnCalendar=Fri *-*-* 01:00:00
 Persistent=true
 Unit=backup.service
 

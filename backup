@@ -1,4 +1,9 @@
 #!/bin/bash
+#: Title        : Back up Service                                   
+#: Date         : November 19, 2022                         
+#: Author       : Aashay Bharadwaj Adrian Balcerak                               
+#: Version      : 1.0                                       
+#: Description  : Backup files to backup server using rsync
 . /opt/backup/backup.config
 
 rsync -aucz -e "ssh -i ~/.ssh/backup-server" ${backup_data} root@${droplet_ip}:~/backup
